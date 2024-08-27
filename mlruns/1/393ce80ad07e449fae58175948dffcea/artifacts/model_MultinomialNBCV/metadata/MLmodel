@@ -1,0 +1,20 @@
+artifact_path: model_MultinomialNBCV
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.12.1
+model_size_bytes: 6630
+model_uuid: 784f1ec0ad134586b6e698f4d184949a
+run_id: 393ce80ad07e449fae58175948dffcea
+utc_time_created: '2024-08-27 20:34:40.900126'
